@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+import pdf from "../../Assets/../Assets/RK.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/rohit276/RK-PROGRAMMING-10K/blob/9971ba0d86408becfbf8c19e0e4640fabf25d560/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+  "https://github.com/rohit276/RK-PROGRAMMING-10K/blob/cf67a4b8fee60f875d9bd579cb89bc40a0749e13/src/Assets/RK.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
